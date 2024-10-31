@@ -1,0 +1,62 @@
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\bin\Debug\net8.0\appsettings.json
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\bin\Debug\net8.0\ITW.staticwebassets.runtime.json
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\bin\Debug\net8.0\ITW.exe
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\bin\Debug\net8.0\ITW.deps.json
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\bin\Debug\net8.0\ITW.runtimeconfig.json
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\bin\Debug\net8.0\ITW.dll
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\bin\Debug\net8.0\ITW.pdb
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.AssemblyInfoInputs.cache
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.AssemblyInfo.cs
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.csproj.CoreCompileInputs.cache
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.RazorAssemblyInfo.cache
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.RazorAssemblyInfo.cs
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\staticwebassets\msbuild.ITW.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\staticwebassets\msbuild.build.ITW.props
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ITW.props
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ITW.props
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\scopedcss\bundle\ITW.styles.css
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\scopedcss\projectbundle\ITW.bundle.scp.css
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.dll
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\refint\ITW.dll
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.pdb
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.genruntimeconfig.cache
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\obj\Debug\net8.0\ref\ITW.dll
+C:\Users\Marti\OneDrive - Universidade de Aveiro\ITW\Projetos\ITW\ITW\bin\Debug\net8.0\libman.json
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\bin\Debug\net8.0\appsettings.json
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\bin\Debug\net8.0\libman.json
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\bin\Debug\net8.0\ITW.staticwebassets.runtime.json
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\bin\Debug\net8.0\ITW.exe
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\bin\Debug\net8.0\ITW.deps.json
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\bin\Debug\net8.0\ITW.runtimeconfig.json
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\bin\Debug\net8.0\ITW.dll
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\bin\Debug\net8.0\ITW.pdb
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.AssemblyInfoInputs.cache
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.AssemblyInfo.cs
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.csproj.CoreCompileInputs.cache
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.RazorAssemblyInfo.cache
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.RazorAssemblyInfo.cs
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\staticwebassets\msbuild.ITW.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\staticwebassets\msbuild.build.ITW.props
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ITW.props
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ITW.props
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\scopedcss\bundle\ITW.styles.css
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\scopedcss\projectbundle\ITW.bundle.scp.css
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.dll
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\refint\ITW.dll
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.pdb
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\ITW.genruntimeconfig.cache
+C:\Users\Marti\OneDrive - Universidade de Aveiro\Universidade\1ºano\Introdução Às Tecnologias Web\Projetos\ITW\ITW\obj\Debug\net8.0\ref\ITW.dll

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brincando com imagens</title>
+    <style>
+        span{
+            width: 120px;
+            line-height: 120px;
+            display: inline-block;
+            text-align: center;
+            border: solid 1px black;
+            image: url("LampDesligada.jpg");
+            }
+        }
+        .mouseOver{
+            image: url("LampLigada.jpg");
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício 3 - brincando com imagens</h1>
+    <span onmouseover="this.classList.toogle('mouseOver')" onmouseout="this.classList.toogle('mouseOver')">
+        <img src="LampDesligada.jpg" height="1400" width="1000"/>
+    </span>
+
+</html>

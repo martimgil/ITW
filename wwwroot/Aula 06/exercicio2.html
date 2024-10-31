@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome-->
+    <link href="../lib/font-awesome/dist/css/font-awesome.min.css" rel="stylesheet" />
+    <style>
+        body{
+            font-family: 'Open Sans', sans-serif;
+        }
+        h1{
+            font-size: 30px;}
+    </style>
+    <script>
+        function getOperacao() {
+            var x = document.getElementById("op1");
+            var y = document.getElementById("op2");
+            console.log(parseFloat(x.value));
+            console.log(parseFloat(y.value));
+            var op =document.getElementById("operacao");
+            if (op.value =="+"){
+                var resultado = soma(parseFloat(x.value),parseFloat(y.value));}
+            else if (op.value =="-"){
+                var resultado = subtracao(parseFloat(x.value), parseFloat(y.value));
+            }
+            else if (op.value =="*"){
+                var resultado = multiplicacao(parseFloat(x.value), parseFloat(y.value));
+                }
+            else if (op.value =="/"){
+                var resultado = divisao(parseFloat(x.value), parseFloat(y.value));
+                }
+            else if (op.value =="**"){
+                var resultado  = exponenciacao(parseFloat(x.value), parseFloat(y.value));
+                }
+            else if(op.value =="%"){
+                var resultado = restoDivisaoInteira(parseFloat(x.value), parseFloat(y.value));
+            }
+            document.getElementById("resultado").value = resultado;
+            return resultado;
+
+        }
+        function soma(x,y){
+            return x+y;
+        }
+        function subtracao(x,y){
+            return x-y;
+        }
+        function multiplicacao(x,y){
+            return x*y;
+        }
+        function divisao(x,y){
+            return x/y;
+        }
+        function exponenciacao(x,y){
+            return x**y;
+        }
+        function restoDivisaoInteira(x,y){
+            return x%y;
+        }
+
+    </script>
+</head>
+<body>
+    <h1><i class="fa fa-calculator" aria-hidden="true"></i> Calculadora!</h1>
+    <hr>
+    <div class="row g-1">
+        <div class="col-md-3">
+            <div class="form-floating">
+                <input id="op1" type="number" value="2" class="form-control">
+                <label for="op1">Operando 1</label>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-floating">
+                <select id="operacao" class="form-select" onchange="getOperacao()">
+                    <option value="+">Soma</option>
+                    <option value="-">Subtração</option>
+                    <option value="*">Multiplicação</option>
+                    <option value="/">Divisão</option>
+                    <option value="**">Potenciação</option>
+                    <option value="%">Resto da divisão inteira</option>
+
+                </select>
+                <label for="operacao">Operação</label>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-floating">
+                <input id="op2" type="number" value="3" class="form-control">
+                <label for="op2">Operando 2</label>
+            </div>
+        </div>
+            <div class="col-md-3">
+                <div class="form-floating">
+                    <input id="resultado" type="number" class="form-control" readonly>
+                    <label for="resultado">Resultado</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row g-1">
+         <button class="btn btn-primary" onclick="getOperacao()">Calcular</button>
+    </div>
+
+
+
+</body>
+</html>

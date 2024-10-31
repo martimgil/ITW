@@ -1,0 +1,115 @@
+﻿body {
+    font-family: 'Open Sans', Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+    li:last-child {
+        border-right: none;
+        float: right;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover:not(.active) {
+            background-color: #444;
+        }
+
+        li a.active:hover {
+            color: #444;
+        }
+
+.active {
+    background-color: #5CAF50;
+}
+
+div.top {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 5px;
+}
+div.home {
+    height: 50px;
+    width: 20%;
+    background-color: green;
+    text-align: center;
+    font-family: 'Open Sans', Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-content: center;
+
+}
+div.p1 {
+    height: 50px;
+    width: 20%;
+    background-color: black;
+    text-align: center;
+    font-family: 'Open Sans', Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+div.banner {
+    height: 200px;
+    width: 100%;
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: black; 
+    margin-top: 5px;
+    text-align: center;
+    background-image: url('https://segredosdomundo.r7.com/wp-content/uploads/2021/12/conheca-20-herois-marvel-e-suas-respectivas-historias.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.content {
+    height: 600px;
+    width: 74%;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid; 
+    border-color: black; 
+    margin-top: 5px;
+    text-align: center;
+    float: left ;
+
+}
+div.advertising {
+    height: 600px;
+    width: 25%;
+    float: right;
+    background-color: yellow;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 5px;
+    text-align: center;
+}
+
+div.footer2 {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
