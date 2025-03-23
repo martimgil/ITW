@@ -3,12 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <title>O meu joguinho...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome-->
+    <link href="../lib/font-awesome/dist/css/font-awesome.min.css" rel="stylesheet" />
+    <style>
+        body{font-family: 'Open Sans';
+        margin: 0 80px 0 80px}
+        .bola{
+            width:100px;
+            height: 100px;
+            border-radius: 50%;
+            margin:10px;
+            position: absolute;
+        }
+        .bola-vermelha{
+            background-color: red;
+        }
+        .bola-azul{
+            background-color: blue;
+        }
+        .bola-verde{
+            background-color: green;
+        }
+        .bola-amarela{
+            background-color: yellow;
+        }
+    </style>
+    <script>
+        function randomizePosition(ball) {
+            // Gera posições aleatórias dentro da janela
+            const randomLeft = Math.random() * (window.innerWidth - 100); // 100 é a largura da bola
+            const randomTop = Math.random() * (window.innerHeight - 100); // 100 é a altura da bola
+
+            // Define a nova posição da bola
+            ball.style.left = `${randomLeft}px`;
+            ball.style.top = `${randomTop}px`;
+        }
+
+        function shuffleBalls() {
+            const balls = document.getElementsByClassName('bola'); // Seleciona todas as bolas
+            for (let i=0; i<balls.length; i++){
+              randomizePosition(balls[i]);
+            }
+        }
+       function showInfo(ball) {
+           const colorClass = ball.className;
+           const left = ball.style.left;
+           const top = ball.style.top;
+           document.getElementById('info').innerText = `Cor: ${colorClass}\nPosição: left: ${left}, top: ${top}`;
+       }
+
+
+    </script>
 </head>
 <body>
     <h1>O meu joguinho...</h1>
     <hr>
-  
-
-
+    <button class="btn btn-primary" type="button" onclick="shuffleBalls()">Baralhar</button>
+    <div class=" bola bola-vermelha" onmouseover="showInfo(this)"></div>
+    <div class="bola bola-verde" onmouseover="showInfo(this)"></div>
+    <div class="bola bola-amarela" onmouseover="showInfo(this)"></div>
+    <div class="bola bola-azul" onmouseover="showInfo(this)"></div>
+    <div id="info"></div>
 </body>
 </html>

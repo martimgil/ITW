@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lampada</title>
+    <script>
+        function ligar(){
+            var img = document.getElementById("imagem");
+            var desligada = "../Aula 06/LampDesligada.jpg";
+            var ligada = "../Aula 06/LampLigada.jpg";
+            if (img.src.includes("LampDesligada.jpg")){
+                img.src = ligada;
+            } else {
+                img.src = desligada;
+            }
+        }
+    </script>
+</head>
+<body>
+    <img src="../Aula 06/LampDesligada.jpg" id="imagem" height="700" width="500" onclick="ligar()"/>
+</body>
+</html>

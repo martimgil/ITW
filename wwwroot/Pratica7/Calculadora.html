@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome-->
+    <link href="../lib/font-awesome/dist/css/font-awesome.min.css" rel="stylesheet" />
+    <style>
+        body{font-family: 'Open Sans', sans-serif;
+            margin: 80px}
+        button {width: 20%;
+            height: 60px;
+            margin: 20px;
+            font-size: 45px;}
+        .res{height: 100px;
+            font-size: 40px;}
+    </style>
+    <script>
+        let currentInput = '';
+        let operator = '';
+        let firstOperand = null;
+        let expression = '';
+
+        function numero(event) {
+            const button = event.target;
+            const value = button.value;
+
+            if ((value == "+") || (value == "-") || (value == "/") || (value == "*")) {
+                if (firstOperand == null) {
+                    firstOperand = currentInput;
+                    expression = currentInput + value;
+                } else {
+                    currentInput = calcular();
+                    firstOperand = currentInput;
+                    expression = currentInput + value;
+                }
+                operator = value;
+                currentInput = '';
+            } else if (value == "=") {
+                currentInput = calcular();
+                expression = currentInput;
+                operator = '';
+                firstOperand = null;
+            } else if (value == "C") {
+                currentInput = '';
+                operator = '';
+                firstOperand = '';
+                expression = '';
+            } else {
+                currentInput += value;
+                expression += value;
+            }
+            document.getElementById('resultado').innerText = expression;
+        }
+
+        function calcular(){
+            if (operator == "+") {
+                return parseFloat(firstOperand) + parseFloat(currentInput);
+            } else if (operator == "-") {
+                return parseFloat(firstOperand) - parseFloat(currentInput);
+            } else if (operator == "*") {
+                return parseFloat(firstOperand) * parseFloat(currentInput);
+            } else if (operator == "/") {
+                if (currentInput === "0") {
+                    let resultado = "ERRO! Impossível dividir por zero!";
+                    firstOperand = '';
+                    operator = '';
+                    currentInput = '';
+                    return resultado;
+                } else {
+                    return parseFloat(firstOperand) / parseFloat(currentInput);
+                }
+            }
+            return currentInput;
+        }
+    </script>
+</head>
+<body>
+<h1>Calculadora</h1>
+<hr>
+<div class="card">
+    <div class="card-header res"><p id="resultado"></p></div>
+    <div class="card-body">
+        <div>
+            <button type="button" class="btn btn-secondary n" onclick="numero(event)" value="1">1</button>
+            <button type="button" class="btn btn-secondary n" onclick="numero(event)" value="2">2</button>
+            <button type="button" class="btn btn-secondary n" onclick="numero(event)" value="3">3</button>
+            <button type="button" class="btn btn-secondary n" onclick="numero(event)" value="+">+</button>
+        </div>
+        <div>
+            <button type="button" class="btn btn-secondary" onclick="numero(event)" value="4">4</button>
+            <button type="button" class="btn btn-secondary" onclick="numero(event)" value="5">5</button>
+            <button type="button" class="btn btn-secondary" onclick="numero(event)" value="6">6</button>
+            <button type="button" class="btn btn-secondary" onclick="numero(event)" value="-">-</button>
+        </div>
+        <div>
+            <button type="button" class="btn btn-secondary" onclick="numero(event)" value="7">7</button>
+            <button type="button" class="btn btn-secondary" onclick="numero(event)" value="8">8</button>
+            <button type="button" class="btn btn-secondary" onclick="numero(event)" value="9">9</button>
+            <button type="button" class="btn btn-secondary" onclick="numero(event)" value="*">*</button>
+        </div>
+        <div>
+            <button type="button" class="btn btn-danger" onclick="numero(event)" value="C">C</button>
+            <button type="button" class="btn btn-secondary" onclick="numero(event)" value="0">0</button>
+            <button type="button" class="btn btn-primary" onclick="numero(event)" value="=">=</button>
+            <button type="button" class="btn btn-secondary" onclick="numero(event)" value="/">/</button>
+        </div>
+    </div>
+    <div class="card-header">&copy; ITW - 2024-25 - Calculadora</div>
+</div>
+</body>
+</html>

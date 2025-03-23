@@ -4,24 +4,29 @@
     <meta charset="UTF-8">
     <title>Brincando com imagens</title>
     <style>
-        span{
-            width: 120px;
-            line-height: 120px;
-            display: inline-block;
-            text-align: center;
-            border: solid 1px black;
-            image: url("LampDesligada.jpg");
-            }
-        }
-        .mouseOver{
-            image: url("LampLigada.jpg");
+        .lampada{
+            cursor:pointer;
+            width: 150px;
+            height: auto;
         }
     </style>
-</head>
+
 <body>
     <h1>Exercício 3 - brincando com imagens</h1>
-    <span onmouseover="this.classList.toogle('mouseOver')" onmouseout="this.classList.toogle('mouseOver')">
-        <img src="LampDesligada.jpg" height="1400" width="1000"/>
-    </span>
-
+    <div><img id="lampada" class="lampada" src="LampLigada.jpg"/>
+    </div>
+    <script>
+        const lampadaApagada="LampDesligada.jpg"
+        const lampadaLigada="LampLigada.jpg"
+        const lampada=document.getElementById("lampada")
+        lampada.onclick = function(){
+            if (lampada.src.includes(lampadaApagada)){
+                lampada.src=lampadaLigada;
+            }
+            else {
+                lampada.src=lampadaApagada;
+            }
+        }
+    </script>
+</body>
 </html>

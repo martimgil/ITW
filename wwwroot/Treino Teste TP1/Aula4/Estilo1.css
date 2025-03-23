@@ -1,0 +1,47 @@
+body{font-family: 'Open Sans', sans-serif}
+div.top{border-color: #000000;
+border-width: 5px;
+background-color: #2b2f32;
+height: 50px}
+
+
+div.banner{height: 150px;
+    background-color: white;
+    border-width: 5px;
+    border-color: black;
+    }
+ul{list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333;}
+li{ width:100px; height: 50px; float:left; border-right: 1px solid #bbb;}
+li:last-child{border-right:none; float:right;}
+li a{display:block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    align-content: center;
+    padding: 14px 16px;
+    }
+    li a.active:hover{color: black}
+    li a:hover:not(.active){background-color: #444;}
+    .active{background-color:#5CAF50}
+
+.banner{
+    background-image: url('https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/12/rainbow-six-siege-header.jpg');
+    background-size: cover;
+}
+
+.content{width: 75%;
+    float:left;
+    height:600px;
+    }
+
+.advertising {
+    float: right;
+    width: 25%;
+    height: 600px;
+    background-color: yellow;
+}
+.footer{
+    padding: 500px 0 0 0 ;
+    width: 100%;
+    height: 50px;
+}
